@@ -36,6 +36,7 @@ export default function RegisterPage() {
         fullName: form.fullName,
         email: form.email,
         password: form.password,
+        confirmPassword: form.confirmPassword,
       });
       router.push("/login?registered=true");
     } catch (err: unknown) {
